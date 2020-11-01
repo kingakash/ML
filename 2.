@@ -1,0 +1,13 @@
+For Multiple:
+
+l = input('Enter word = ')
+print(*[i for i in l.split() if len(i) == max([len(k) for k in l.split()])]) # Gives longest word (words if multiple)
+print(*[i for i in l.split() if len(i) == min([len(k) for k in l.split()])]) # Gives shortest word (words if multiple)
+
+
+For single:
+
+s = input('Enter word = ')
+print(max(s.split(), key=len))
+print(min(s.split(), key=len))
+
