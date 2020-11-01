@@ -1,0 +1,30 @@
+1.      Find the sum of the series 2 +22 + 222 + 2222 + .. n terms
+
+2.      Write a program to find out the largest and smallest word in the string "This is an umbrella".
+
+3.      Write a Python program to get unique values from a list
+
+4.      Write a Python function to check whether a number is perfect or not
+
+# The first perfect number is 6, because 1, 2, and 3 are its proper positive divisors, and 1 + 2 + 3 = 6.
+
+5.      Import only every nth row from a csv file to create a dataframe?
+
+6.      Import only specific columns from a csv file?
+
+7.      Check if a dataframe has any missing values?
+
+8.      Count the number of missing values in each column?
+
+9.      Replace missing values of multiple numeric columns with the mean?
+
+10.  Set the number of rows and columns displayed in the output?
+
+11.  How can you remove outliers from your dataset
+
+12.  How to know the maximum possible correlation value of each column against other columns?
+
+13.  Count the number of missing values in each column of a given DataFrame
+
+14.        Calculate the total number of missing values in a DataFrame
+
