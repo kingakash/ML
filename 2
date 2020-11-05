@@ -4,6 +4,19 @@ l = input('Enter word = ')
 print(*[i for i in l.split() if len(i) == max([len(k) for k in l.split()])]) # Gives longest word (words if multiple)
 print(*[i for i in l.split() if len(i) == min([len(k) for k in l.split()])]) # Gives shortest word (words if multiple)
 
+Or 
+l = input('Enter word = ')
+for i in l.split():
+   x=min(len(k) for k in l.split())
+   if len(i) ==x:
+     print(i,end='\t')
+print('\t')
+for i in l.split():
+   x=max(len(k) for k in l.split())
+   if len(i) ==x:
+     print(i,end='\t')
+
+
 
 For single:
 
